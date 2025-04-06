@@ -18,8 +18,11 @@
     border: 0.5px solid var(--light-border);
     background-color: var(--transparent);
     padding: 20px;
+    max-width: 203px;
+    aspect-ratio: 1/1;
+    width: 100%;
     cursor: pointer;
-    transition: var(--transition) 0.5s opacity;
+    transition: var(--transition) .5s opacity;
 }
 
 .character-list li:hover {
