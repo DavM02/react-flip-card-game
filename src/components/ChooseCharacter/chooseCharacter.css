@@ -1,0 +1,27 @@
+.choose-character {
+    text-align: center;
+}
+
+.choose-character h3 {
+    margin-bottom: 20px;
+}
+
+.character-list {
+     display: flex;
+     gap: 15px;
+     align-items: center;
+     margin-bottom: 20px;
+}
+
+.character-list li {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-border);
+    background-color: var(--transparent);
+    padding: 20px;
+    cursor: pointer;
+    transition: var(--transition) 0.5s opacity;
+}
+
+.character-list li:hover {
+    opacity: 50%;
+}

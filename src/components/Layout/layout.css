@@ -1,0 +1,13 @@
+#game .container {
+  margin: 0 auto;
+  display: block;
+  padding: 0 4vw;
+  margin-top: 100px;
+  max-width: 1500px;
+}
+
+#game .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

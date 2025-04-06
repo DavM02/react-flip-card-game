@@ -1,0 +1,25 @@
+.statistis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--black);
+}
+
+.statistis h2 {
+    color: var(--green);
+}
+
+.statistis p {
+    margin-top: 5px;
+}
+
+.statistis button {
+    margin-top: 15px;
+}
+
+.statistis .image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
