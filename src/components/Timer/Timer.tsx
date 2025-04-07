@@ -5,8 +5,6 @@ export default function Timer() {
 
     const [time, setTime] = useState<number>(0)
 
-
-
     const context = useContext(GameContext)
 
     if (!context) return
