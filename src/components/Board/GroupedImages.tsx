@@ -1,4 +1,4 @@
-const images = import.meta.glob(`../../../src/assets/characters/**/*.{png,jpg,jpeg,gif,svg}`, { eager: true });
+const images = import.meta.glob(`/src/assets/characters/**/*.{png,jpg,jpeg,gif,svg}`, { eager: true });
  
  
 interface GroupedImages {
